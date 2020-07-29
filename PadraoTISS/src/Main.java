@@ -18,18 +18,19 @@ public class Main {
 	        int bytes = 0;
 
 	        while ((bytes = is.read()) != -1) {
-	            fos.write(bytes);     	            
-	        }
-	        
-	        
+	            fos.write(bytes); 	            
+	        }	               
 	        
 	        is.close();
 
 	        fos.close();
 	        
+	        System.out.println("Download concluído");
+	        
 		}catch(Exception e) {
 			System.out.println("Exception " + e);
 		}
+		
 		
 	}
 }
