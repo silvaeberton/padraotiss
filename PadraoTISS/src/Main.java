@@ -19,10 +19,10 @@ public class Main {
 
 	        while ((bytes = is.read()) != -1) {
 	            fos.write(bytes); 	            
-	        }	               
+	        }	             
 	        
-	        System.out.println("Download concluido");
-
+	        System.out.println("Download conluido");
+	        
 	        is.close();
 	        
 	        fos.close();       
