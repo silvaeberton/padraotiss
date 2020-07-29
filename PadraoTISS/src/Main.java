@@ -21,11 +21,11 @@ public class Main {
 	            fos.write(bytes); 	            
 	        }	               
 	        
-	        is.close();
+	        System.out.println("Download concluido");
 
-	        fos.close();
+	        is.close();
 	        
-	        System.out.println("Download concluído");
+	        fos.close();       
 	        
 		}catch(Exception e) {
 			System.out.println("Exception " + e);
